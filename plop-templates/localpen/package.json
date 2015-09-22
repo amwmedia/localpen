@@ -1,0 +1,15 @@
+{
+  "name": "localpen-{{ dashCase (lowerCase title) }}",
+  "version": "0.0.1",
+  "description": "{{ description }}",
+  "devDependencies": {
+    "browser-sync": "^2.9.5",
+    "gulp": "^3.9.0",
+{{#if babel}}
+    "gulp-babel": "^5.2.1",
+{{/if}}
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-stylus": "^2.0.7",
+    "nib": "^1.1.0"
+  }
+}

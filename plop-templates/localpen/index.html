@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ titleCase title }} - LocalPen</title>
+    <!-- LocalPen Styles -->
+    <link rel="stylesheet" href="/styles.css" charset="utf-8">
+</head>
+<body>
+    <h1>{{ titleCase title }}</h1>
+
+{{#if babel}}
+    <!-- babel browser polyfill -->
+    <script src="/browser-polyfill.js" charset="utf-8"></script>
+{{/if}}
+    <!-- LocalPen Logic -->
+    <script src="/logic.js" charset="utf-8"></script>
+</body>
+</html>
